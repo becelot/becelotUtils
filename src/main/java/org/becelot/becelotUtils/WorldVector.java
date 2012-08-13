@@ -1,4 +1,4 @@
-package org.becelot.becelotUtils.vector;
+package org.becelot.becelotUtils;
 
 import org.bukkit.Location;
 import org.bukkit.World;
