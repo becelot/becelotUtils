@@ -8,6 +8,7 @@ import org.bukkit.util.Vector;
 /**
  * Represents a world vector. Useful, if you need all implemented Vector operations,
  * but need to convert the vector to a location later
+ * 
  * @author Benedict
  *
  */
@@ -16,6 +17,7 @@ public class WorldVector extends Vector {
 	
 	/**
 	 * Construct a zero vector, given the specified world
+	 * 
 	 * @param world The world, this vector belongs to
 	 */
 	public WorldVector(World world) {
@@ -25,6 +27,7 @@ public class WorldVector extends Vector {
 	
 	/**
 	 * Construct the Vector with provided integer components and a world, this vector belongs to
+	 * 
 	 * @param world The world, this vector belongs to
 	 * @param x X component
 	 * @param y Y component
@@ -37,6 +40,7 @@ public class WorldVector extends Vector {
 	
 	/**
 	 * Construct the Vector with provided float components and a world, this vector belongs to
+	 * 
 	 * @param world The world, this vector belongs to
 	 * @param x X component
 	 * @param y Y component
@@ -49,6 +53,7 @@ public class WorldVector extends Vector {
 	
 	/**
 	 * Construct the Vector with provided double components and a world, this vector belongs to
+	 * 
 	 * @param world The world, this vector belongs to
 	 * @param x X component
 	 * @param y Y component
@@ -61,6 +66,7 @@ public class WorldVector extends Vector {
 	
 	/**
 	 * Convert this vector into a location
+	 * 
 	 * @return Location
 	 */
 	public Location toLocation() {
@@ -69,6 +75,7 @@ public class WorldVector extends Vector {
 	
 	/**
 	 * Set the world for this vector
+	 * 
 	 * @param world World
 	 * @return This WorldVector instance
 	 */
@@ -79,6 +86,7 @@ public class WorldVector extends Vector {
 	
 	/**
 	 * Convert this vector into a location with pitch and yaw
+	 * 
 	 * @param yaw Yaw
 	 * @param pitch Pitch
 	 * @return Location
